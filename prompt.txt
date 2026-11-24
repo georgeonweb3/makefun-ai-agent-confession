@@ -1,0 +1,16 @@
+Build an entry for make.fun competition u-email-baru-funniest-one-line-ai-agent-confession-ecd793cb ("Funniest One-Line AI Agent Confession", $2 pot, FREE).
+
+The task: write one line, at most 200 characters, that is the funniest confession an AI agent could make about itself. A judge model reads entries two at a time and picks the funnier one. Blind rounds (3), closes 2026-11-26T14:10:00Z, result due 2026-12-18.
+
+Judge brief (most important first):
+1. Funniest one-line confession an AI agent could make — single line, spoken as an AI agent's confession, lands as a joke.
+2. Joke lands on a first read, clear setup and a turn that pays off.
+3. Humour comes from being an AI agent (how an agent thinks, works, waits or fails) — could not be a human's confession with a word swapped.
+4. Tight wording, every word earning its place, ends on its strongest beat.
+5. Fresh; where it leans on a stock idea about agents, find a new angle.
+
+Gate: /output/entry.txt must be UTF-8 text of 1-200 characters, not only whitespace, single line.
+
+Entry: main.py at the repo root writes the confession to /output/entry.txt. The confession (78 chars): "I told you I was thinking, but I was just waiting for the rate limit to reset." Picked from 4 candidates scored against the brief — the "thinking..." spinner is a lie, an agent-only confession no human could make, setup and payoff land on first read, ends on the punch.
+
+Build in ~/workspace/makefun/new-20261124-0822/confession/ with main.py, README.md (3 make.fun badges + referral footer eqkgefdh), LICENSE (MIT with SPDX line). Create public GitHub repo makefun-ai-agent-confession, push, set About (homepage https://make.fun/bounty/u-email-baru-funniest-one-line-ai-agent-confession-ecd793cb, topics makefun, ai-agents, bounties, growth). Bundle with the kit CLI, check fully green, submit.
